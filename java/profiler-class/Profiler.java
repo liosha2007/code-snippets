@@ -9,7 +9,7 @@ import java.util.*;
  * Time: 15:20
  * To change this template use File | Settings | File Templates.
  */
-public class Profile {
+public class Profiler {
     private static long time = 0;
     private static HashMap<String, HashMap<String, String>> profileDetails = new HashMap<String, HashMap<String, String>>();
     private static HashMap<String, List<Long>> profileTimes = new HashMap<String, List<Long>>();
